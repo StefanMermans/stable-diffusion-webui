@@ -1,0 +1,7 @@
+lora: 2bNierAutomataLora
+prompt: <lora:2bNierAutomataLora_v2b:1>
+civtai: https://civitai.com/models/5200/2b-nierautomata-lora-yorha-edition
+triggers:
+ - yorha no. 2 type b
+prompts:
+  base: white hair, black skirt, thighs, blindfold,

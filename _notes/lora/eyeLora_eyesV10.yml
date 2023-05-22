@@ -1,0 +1,4 @@
+lora: eye lora
+prompt: <lora:eyeLora_eyesV10:1>
+triggers:
+ - loraeyes

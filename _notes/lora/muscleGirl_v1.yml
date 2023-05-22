@@ -1,0 +1,17 @@
+lora: muscleGirl_v1.safetensors
+prompt: <lora:muscleGirl_v1:1>
+triggers:
+  - muscular
+  - muscular female
+  - thighs
+  - fit
+  - abs
+  - leg muscles
+  - arm muscles
+  - back muscles
+notes:
+  - Common muscle-related prompts may work, including abs, leg muscles, arm muscles, and back muscles.
+  - Without the need for trigger words, this LoRA can also fix body shape.
+  - Not good at generating hyper muscles.
+  - Add Prompt "navel" makes abs look better IMO.
+  - if there are unexpected bikini strings around hips, add "shimakaze \(kancolle\)" or"high leg" to the negative prompts may help get rid of them, sometimes.

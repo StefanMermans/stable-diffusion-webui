@@ -1,0 +1,20 @@
+lora: Saori_v10.safetensors
+prompt: <lora:Saori_v10:1>
+civitai: https://civitai.com/models/22546/saori
+triggers:
+  - saori
+prompts:
+  - halo,
+  - long hair,
+  - blue eyes,
+  - mouth mask,
+  - black hair,
+  - black mask,
+  - pants,
+  - black headwear,
+  - black gloves,
+  - crop top,
+  - sleeveless,
+  - halo,
+  - large breasts,
+  - black shirt

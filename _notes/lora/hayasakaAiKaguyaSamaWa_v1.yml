@@ -1,0 +1,37 @@
+lora: hayasakAiKaguyaSamaWa_v1.safetensors
+prompt: <lora:hayasakaAiKaguyaSamaWa_v1:1>
+civitai: https://civitai.com/models/26390/hayasaka-ai-kaguya-sama-wa-kokurasetai
+trigger: hayasaka ai
+prompts:
+  base:
+    - blue scrunchie
+    - side ponytail
+    - hair between eyes
+    - blue eyes
+    - blonde hair
+    - hair ornament
+    - bangs
+    - long hair
+    - sidelocks
+  school uniform:
+    - school uniform
+    - collared shirt
+    - hair scrunchie
+    - clothes around waist
+    - black socks
+    - black vest
+    - long sleeves
+    - cardigan
+    - kneehighs
+    - dress skirt
+    - necklace
+    - collarbone
+    - black dress
+  maid outfit:
+    - maid headdress
+    - apron
+    - long sleeves
+    - white shirt
+    - black dress
+    - maid apron
+    - black pantyhose

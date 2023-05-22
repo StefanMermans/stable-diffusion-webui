@@ -1,0 +1,11 @@
+model: HairCensorV1-000008.safetensors
+prompt:
+civitai: https://civitai.com/models/16940/conceptbetter-hair-censor
+trigger: hair_censor
+recommendations:
+  prompts:
+    - topless
+    - nude
+    - hair censor
+    - hair over breasts
+    - convenient censoring

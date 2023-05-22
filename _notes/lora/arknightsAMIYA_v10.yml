@@ -1,0 +1,10 @@
+lora: arknightsAMIYA_v10.safetensors
+prompt: <lora:arknightsAMIYA_v20:1>
+civitai: https://civitai.com/models/9290/arknights-amiya
+trigger: 1girl
+prompts:
+  - brown hair
+  - bunny ears
+  - blue eyes,
+  - coat
+  - white shirt

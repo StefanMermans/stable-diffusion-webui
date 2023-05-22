@@ -1,0 +1,18 @@
+lora: togaHimikoLora_offset.safetensors
+prompt: <lora:togaHimikoLora_offset:1>
+trigger: toga himiko
+prompts:
+  - cardigan
+  - bags under eyes
+  - blue sailor collar
+  - skirt
+  - school uniform
+  - yellow eyes,
+  - sailor collar
+  - serafuku
+  - neckerchief
+  - blue skirt,
+  - pleated skirt,
+  - double bun
+  - blunt bangs
+  - narrowed eyes

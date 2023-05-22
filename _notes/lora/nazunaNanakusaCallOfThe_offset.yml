@@ -1,0 +1,11 @@
+lora: nazunaNanakusaCallOfThe
+prompt: <lora:nazunaNanakusaCallOfThe_offset:1>
+prompts:
+  - midriff
+  - bare shoulders
+  - braid
+  - cleavage cutout
+  - open clothes
+  - black coat
+  - silver hair
+  - shorts

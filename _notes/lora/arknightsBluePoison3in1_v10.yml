@@ -1,0 +1,36 @@
+model: arknightsBluePoison3in1_v10.safetensors
+prompt: <lora:arknightsBluePoison3in1_v10:1>
+civitai: https://civitai.com/models/27348/arknights-blue-poison-3in1
+recommendations:
+  scale: 0.7~0.9
+triggers:
+  original1: 
+    - OriginalOutfit1
+    - hood
+    - blue jacket
+    - shorts
+    - pouch
+    - belt
+    - pantyhose
+    - black camisole vest
+    - white shirt
+  original2:
+    - OriginalOutfit2
+    - hood
+    - blue jacket
+    - shorts
+    - pouch
+    - belt
+    - white shirts
+    - thighhighs
+    - thigh strap
+    - suspenders
+  shoalBeat:
+    - ShoalBeat
+    - ringed neck choker
+    - shorts
+    - leggings
+    - braids
+    - off shoulder jacket
+    - sports bra
+    - hairband

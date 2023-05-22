@@ -1,0 +1,5 @@
+lora: shirtlife
+prompt: <lora:shirtliftALORAFor_shirtliftv1:1>
+civtai: https://civitai.com/models/6693/shirtlift-a-lora-for-flashing-tits
+triggers:
+ - shirtlift

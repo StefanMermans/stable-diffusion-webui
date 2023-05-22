@@ -1,0 +1,8 @@
+lora: shirtTugPoseLORA
+prompt: <lora:shirtTugPoseLORA_shirtTug:1>
+civitai: https://civitai.com/models/7706/shirt-tug-pose-lora
+triggers:
+  - shirt
+  - naked shirt
+  - shirt tug
+  

@@ -1,0 +1,4 @@
+lora: mikaPikazoStyleLora
+prompt: <lora:mikaPikazoStyleLora_mk:1>
+triggers:
+ - mika pikazo

@@ -1,0 +1,12 @@
+lora: yaeMikoRealisticAnime_offset.safetensors
+prompt: 
+civitai: https://civitai.com/models/25163/yae-miko-realistic-anime-lora
+triggers:
+  - yae miko
+prompts:
+  - animal ears
+  - bare shoulders
+  - detached sleeves
+  - earrings
+  - fox ears
+  - kimono

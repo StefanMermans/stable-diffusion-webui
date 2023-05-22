@@ -1,0 +1,22 @@
+model: seele_hsr.safetensors
+prompt: <lora:seele_hsr:1>
+civitai: https://civitai.com/models/10978/seele-or-honkai-star-rail
+recommendations:
+  scale: 0.6~0.8
+trigger: seele hsr,
+prompts:
+  - purple hair
+  - long hair
+  - bangs
+  - gloves
+  - hair between eyes
+  - purple eyes
+  - leotard
+  - boots
+  - black gloves
+  - fingerless gloves
+  - cow lick
+  - black footwear
+  - shorts
+  - blue butterfly
+  - cleavage

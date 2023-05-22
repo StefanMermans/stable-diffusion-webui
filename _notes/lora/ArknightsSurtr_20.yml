@@ -1,0 +1,10 @@
+lora: ArknightsSurtr
+prompt: <lora:ArknightsSurtr_20:1>
+civitai: https://civitai.com/models/6586/arknights-surtr
+triggers:
+  - origen
+  - freedom
+  - coralcoast
+prompts:
+  origen: pencil skirt, black top, red hair
+

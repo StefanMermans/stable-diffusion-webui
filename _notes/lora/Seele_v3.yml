@@ -1,0 +1,9 @@
+model: Seele_v3.safetensors
+prompt:
+civitai: https://civitai.com/models/56177/seele-honkai-star-rail
+trigger: seele
+recommendations:
+  weight: 0.8
+  prompts:
+    - purple hair
+    - purple eyes

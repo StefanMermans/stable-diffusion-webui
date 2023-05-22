@@ -1,0 +1,5 @@
+lora: croppedShirtUnderboobAnime_v10.safetensors
+prompt: <lora:croppedShirtUnderboobAnime_v10:1>
+triggers:
+  - underbood
+  - shirt

@@ -1,0 +1,9 @@
+lora: helltakerLora_10
+prompt: <lora:helltakerLora_10:1>
+civitai: https://civitai.com/models/8429/helltaker-lora
+notes:
+  If you want to reproduce the original Helltaker-like character, enter the trigger word 'Helltaker'.
+
+  Alternatively, I recommend that you apply weights between 0.5 and 0.6 without applying trigger words.
+
+  Or If you apply a weight of 0.3~0.4, It will emphasize the outline.

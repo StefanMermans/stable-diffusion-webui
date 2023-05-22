@@ -1,0 +1,4 @@
+model: nii_manabu.safetensors
+prompt: <lora:nii_manabu:1>
+civitai: https://civitai.com/models/49570/nii-manabu-anime-style-lora
+trigger: nii manabu

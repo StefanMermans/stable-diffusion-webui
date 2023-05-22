@@ -1,0 +1,5 @@
+model: Lovely_face_eyes_1.safetensors
+prompt: <lora:Lovely_face_eyes_1:1>
+civitai: https://civitai.com/models/38525/animeeyestrainedtemplatetest
+recommendations:
+  weight: 0.6 ~ 1.0

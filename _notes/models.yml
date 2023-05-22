@@ -1,0 +1,249 @@
+meinamix_meinav9:
+  civitai: https://civitai.com/models/7240/meinamix
+  recommendations:
+    sampler:
+      - EularA, 40~60 steps
+      - DPM++ SDE Karras, 30~60 steps
+    CFG scale: 7
+    Hires.fix: R-ESRGAN 4x+Anime6B, with 10 steps at 0.1 up to 0.3 denoising
+    clip skip: 2
+    negative_prompt: (worst quality:2, low quality:2), (zombie, sketch, interlocked fingers, comic),
+    Resolutions:
+      portrait:
+        512x768
+        512x1024
+      landscape:
+        768x512
+        1024x512
+        1536x512
+
+
+meinamix_meinav8:
+  civitai: https://civitai.com/models/7240/meinamix
+  recommendations:
+    Sampler:  DPM++ 2M Karras, 20 steps
+    CFG scale: 5 up to 9
+    Clip Skip: 2
+    Hires.fix option 1: R-ESRGAN 4x or +Anime6B, with 15 steps at 0.1 up to 0.3 denoising.
+    Hires.fix option 2: Latent, with 10 steps and 0.55 denoising.
+    negative_prompt: (worst quality, low quality:1.4), monochrome, zombie,
+  positive_prompts:
+    - masterpiece
+    - best quality
+    - finely detailed beautiful eyes
+    - detailed face
+    - extremely detailed CG
+    - ultra-detailed
+    - best shadow
+    - depth of field
+    - watercolor
+    - beautiful concept illustration
+    - extremely fine and beautiful
+    - perfect details
+    - illustration
+
+meinapastel_v4:
+  civitai: https://civitai.com/models/11866/meinapastel
+  recommendations:
+    Sampler: DPM++ 2M Karras, 20 steps.
+    Resolutions: 512x768, 512x1024. ( other resolutions may work).
+    Hires.fix option 1: Latent, with 10 steps and 0.55 denoising.
+    Hires.fix option 2: R-ESRGAN 4x or +Anime6b, with 15 steps at 0.1 up to 0.3 denoising.
+    Clip Skip: 2
+    negative_prompt: (worst quality, low quality:1.4), monochrome, zombie
+
+meinahentai:
+  civitai: https://civitai.com/models/12606/meinahentai
+  recommendations:
+    Samplers:
+      - Eular a, 24 steps
+      - DPM++ SDE Karras, 25 steps
+    resolutions: 512x768, 768x512
+    negative_prompt: (worst quality, low quality:1.4), monochrome, zombie, extra limbs,
+    prompts:
+      (semi) realistic: photorealistic, (hyperrealistic:1.2)
+      base: nsfw # optional if other lewd prompts are provided
+    vae: automatic
+    notes:
+      - "If you want the art to be more realistic, add: ' photorealistic, (hyperrealistic:1.2) ' in the prompt."
+      - "If you want the art to be more realistic, add: ' photorealistic, (hyperrealistic:1.2) ' in the prompt."
+
+meinaAlter:
+  civitai: https://civitai.com/models/20945/meinaalter
+  recommendations: 
+    512x768 or below and landscapes:
+      samplers:
+        - Euler a, 15~60 steps
+        - DPM++ 2S a Karass, 50~60 steps
+        - DPM++ 2M a Karass, 25~30 steps
+      hires: latent, 0.55 denoising, 10 steps
+    512x1024 or higher:
+      samplers:
+        - SDE Karass, 30 steps
+      hires: anime6B or none, 0.3 denoising, 10 steps
+
+meinaUnreal:
+  civitai: https://civitai.com/models/18798/meinaunreal
+  recommendations:
+    sampler: Euler a, 40 ~ 60 steps
+    CFG scale: 7
+    negative prompt: (worst quality, low quality:1.4), monochrome, zombie, (interlocked fingers),
+    Hires.fix:
+      upscaler: R-ESRGAN 4x
+      steps: 10 ~ 30
+      denoising: 0.3 ~ 0.5
+    resolutions:
+      portraits:
+        - 512x768
+        - 512x1024
+      landscape:
+        - 768x512
+        - 1024x512
+
+pastelMixStylizedAnime_pastelMixPrunedFP16:
+  civitai: https://civitai.com/models/5414/pastel-mix-stylized-anime-model-fantasyai
+  vae: pastel-waifu-duffusion.vae.pt
+  recommendations:
+    Sampler: DPM++ 2M Karras
+    steps: 20
+    CFG scale: 7
+    Hires.fix:
+      upscaler: Latent #must
+      Hires steps: 20,
+
+grapefruitHentaiModel_grapefruitv32:
+  civitai: https://civitai.com/models/24383/grapefruit-hentai-model
+  recommendations:
+    positive_prompts: masterpiece, best quality
+    negative_prompts: (worst quality, low quality:1.4), monochrome
+    notes: Use monstly danbooru tags
+
+CounterfeitV25_25:
+  civitai: https://civitai.com/models/4468/counterfeit-v25
+  huggingFace: https://huggingface.co/gsdf/Counterfeit-V2.0
+  recommendations:
+    sampler: DPM++ SDE Karras
+    steps: 20
+    CFG scale: 8
+    Clip Skip: 2
+    positive_prompts: ((masterpiece, best quality))
+    negative_prompts: (low quality, worst quality:1.4), (bad anatomy), (inaccurate limb:1.2),bad composition
+    Hires.fix:
+      upscaler: Latent
+
+Counterfeit-V3.0:
+  civitai: https://civitai.com/models/4468/counterfeit-v30
+  recommendations:
+    CLIPTextModel: openai/clip-vit-large-patch14-336
+      - https://civitai.com/models/4468/counterfeit-v30?commentId=117932&modal=commentThread
+    
+
+
+adobisRealFlexibleMix_v2:
+  civitai: https://civitai.com/models/7386/adobis-real-flexible-mix-aah
+  recommendations:
+    sampler: Eular A
+    steps: 25
+    Hires.fix: R-ESRGAN 4x+, 25 Hires steps and Denoising strength 0.4
+    # Note: mix and match promps, don't need to use all of them
+    positive_prompts: Cinematic film still, analog style, RAW photo, hyper real photo, ultrarealistic uhd faces, 8k uhd, dslr, soft lighting, high quality, film grain, Fujifilm XT3, photographed on a Canon EOS R5, 50mm lens, F/2.8, HDR, hyper-realistic, colorgraded, volumetric lighting, volumetric fog, moist, shallow depth of field, reflections
+    negative_prompts:
+      general: blurry, logo, watermark, signature, cropped, out of frame, worst quality, low quality, jpeg artifacts, poorly lit, overexposed, underexposed, glitch, error, out of focus
+      realism_general: (semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, digital art, anime, manga:1.3), amateur
+      realism_portrait: (poorly drawn hands, poorly drawn face:1.2), deformed iris, deformed pupils, morbid, duplicate, mutilated, extra fingers, mutated hands, poorly drawn eyes, mutation, deformed, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck
+      sfw: nsfw, naked, exposed breasts, nude, nudity, erotic
+    known_keywords: analog style, modelshoot style, alluring blue eyes, cyborgdiffusion, erotic, nsfw, nudity, elden ring style, postapocalypse, knollingcase, swpunk, synthwave, dreamlikeart, mdjrny-v4 style, nousr robot, tiktok, instagram
+    
+neverendingDreamNED:
+  civitai: https://civitai.com/models/10028/neverending-dream-ned
+  recommendations:
+    sampler: DPM++ SDE Karras
+    CFG scale: 9
+    steps: 30
+
+animePastelDream:
+  civitai: https://civitai.com/models/23521/anime-pastel-dream
+  hard: Stronger pastel style and gets a lot more creative.
+  soft: Has a subtler pastel style and is much easier to control.
+  recommendations:
+    sampler: DPM++ SDE Karras
+    clip skip: 2
+    ENSD: 31337 # Optional
+    Highres fix: either a general upscaler and low denoise or Latent with high denoise
+    vae: auto # important
+    positive_prompts:
+      - masterpiece
+      - best quality
+      - extremely detailed CG unity 8k wallpaper
+    negative_prompts:
+     - worst quality
+     - low quality
+     - poorly drawn face
+     - ugly
+     - worst face
+     - error
+     - blurry
+
+ReV Animated:
+  civitai: https://civitai.com/models/7371/rev-animated
+  recommendations:
+    resolutions:
+      - 512x512
+      - 512x768
+      - 768x512
+    vae:
+      - orangemix
+      - kl-f8-anome2
+      - Blessed2
+    prompts:
+      quality: ((best quality)), ((masterpiece)), (detailed)
+      anime: 2.5D type
+  prompting:
+    order matters: words near the front of your prompt are weighted more heavily than the things in the back of your prompt.
+    prompt order: content type > description > style > composition
+
+camelliamixLine_v2:
+  civitai: https://civitai.com/models/44195/camelliamixline
+  recommendations:
+    sampling method: DPM++ SDE Karras
+    clip skip: 2
+    CFG scale: 7~10
+    Hires.fix upscaled: R-ESRGAN 4x+Anime6B
+    Hires.step: 12
+  prompting:
+    positive: (masterpiece:1.2, best quality)
+    negative: (worst quality, low quality:1.4), <lora:easynegative:1> 
+
+darkSushiMixMix_brighter:
+  civitai: https://civitai.com/models/24779?modelVersionId=32465
+
+majicmixRealistic_v4:
+  civitai: https://civitai.com/models/43331/majicmix-realistic
+  recommendations:
+    sampler:
+      - DPM++ 2M Karras (bug-fixed)
+      - DPM++ SDE Karras
+    steps: 20 ~ 40
+    CFG scale: 6 ~ 8
+    clip skip: 2
+    Hires. fix:
+      upscale: 2
+      Hires steps: 15
+      denoising strength: 0.2 ~ 0.5
+
+dreamlikeDiffusion10_10:
+  civitai: https://civitai.com/models/1274/dreamlike-diffusion-10
+  notes:
+    Use the same prompts you would for SD 1.5. Add dreamlikeart if the artstyle is too weak
+  recommendations:
+    clip skip: 1
+    quality tags:
+      - illustration, art by Carne Griffiths and ARTGERM,DREAMLIKEART
+
+dreamshaper_5BakedVae:
+  civitai:
+  recommendations:
+    quality tags:
+      # This just looks like bullshit
+      - "intricate, elegant, highly detailed, majestic, digital photography, art by artgerm and ruan jia and greg rutkowski surreal painting, hdr,"
+      - watercolor extremely luminous bright design, pastel colors, (ink:1.3), autumn lights

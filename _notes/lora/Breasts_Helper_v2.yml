@@ -1,0 +1,10 @@
+lora: Breasts_Helper_v2.safetensors
+prompt: <lora:Breasts_Helper_v2:1>
+triggers:
+  - flats_tits
+  - flat_tits
+  - small_tits
+  - medium_tits
+  - big_tits
+  - fake_tits
+  - bimbo_tits

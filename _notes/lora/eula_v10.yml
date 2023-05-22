@@ -1,0 +1,7 @@
+lora: eula v10
+prompt: <lora:eula_v10:1>
+civtai: https://civitai.com/models/11115/eula
+triggers:
+ - (eula, youla, /genshin impact/), 
+prompts:
+  base: blue hair, thighhighs, hairband, thighs, long sleeves, gloves, necktie, bangs, dark golden  yellow eyes, medium hair, leotard, hair ornament, black hairband, black leotard, cape, shoulder cutout, black thighhighs, blue necktie, long hair

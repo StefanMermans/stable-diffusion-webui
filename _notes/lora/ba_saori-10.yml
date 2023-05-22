@@ -1,0 +1,19 @@
+model: ba_saori-10.safetensors
+civitai: https://civitai.com/models/54288/joumae-saori-or-blue-archive
+triggers:
+  - saori \(blue archive\)
+  - long hair
+  - black hair
+  - halo
+prompts:
+  default outfit:
+    - baseball cap
+    - open clothes
+    - off shoulder
+    - coat
+    - crop top
+    - black pants
+    - blue eyes
+    - snap fit buckle # optional
+    - chest harness # optional
+    - thigh holster # optional

@@ -1,0 +1,23 @@
+model: arknights_exusiai-10.safetensors
+prompt: <lora:arknights_exusiai-10:1>
+civitai: https://civitai.com/models/61557/exusiai-or-arknights
+recommendtaions:
+  weight: 0.8 ~ 1.0
+  triggers:
+    general:
+      - exusiai, short hair, red hair, hair over one eye, halo, orange eyes, detached wings
+    default:
+      - exusiaidef
+      - pantyhose
+    wild operations:
+      - exusiaiwo
+      - eyewear on head
+      - military jacket
+      - blue shorts
+      - thigh strap
+    city rider:
+      - exusiaicr
+      - headphones
+      - red neckerchief
+      - white shorts
+      - white gloves

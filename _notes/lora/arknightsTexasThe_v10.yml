@@ -1,0 +1,8 @@
+lora: arknightsTexasThe
+prompt: <lora:arknightsTexasThe_v10:1>
+civtai: https://civitai.com/models/6779/arknights-texas-the-omertosa
+triggers:
+ - omertosa
+ - head
+prompts:
+  base: blue gloves

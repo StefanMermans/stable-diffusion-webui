@@ -1,0 +1,10 @@
+lora: kasumiMiwaJujutsu
+prompt: <lora:kasumiMiwaJujutsu_v10:1>
+civitai: https://civitai.com/models/7730/kasumi-miwa-jujutsu-kaisen
+triggers:
+ - miwakasumi
+prompts:
+  base: light blue hair
+  suit: (formal, suit, black jacket, white shirt, black necktie, black pants)
+negativePromps:
+  suit: open jacket

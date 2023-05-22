@@ -1,0 +1,5 @@
+model: ai_hoshino_v2.5-very-hard.safetensors
+prompt: <lyco:ai_hoshino_v2.5-very-hard:0.7>
+civitai: https://civitai.com/models/38063?modelVersionId=45082
+prompts:
+  - star-shaped pupils

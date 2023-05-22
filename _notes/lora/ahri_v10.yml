@@ -1,0 +1,9 @@
+model: ahri_v10.safetensors
+prompt:
+civitai: https://civitai.com/models/60952/ahri-normal-popstar-star-guardian-sprit-blossom-league-of-legends
+weight: 0.7
+prompts:
+  normal: ah1, facial mark, multiple tails, fox tails, korean clothes, cleavage, bare shoulders, detached sleeves
+  popstar: ah2, facial mark, multiple tails, fox tail, hat bow, necklace, peaked cap, jewelry, cleavage, epaulettes, necklace, belt, open jacket, short shorts, black pantyhose, long sleeves, large breasts
+  star guardian: ah3, facial mark, multiple tails, fox tail, magical girl, skirt, detached sleeves, elbow sleeve, white thighhighs, large breasts, blonde hair
+  spirit blossom: ah4, pink hair, facial mark, multiple tails, fox tail, japanese clothes, bare shoulders, white thighhighs, hair ribbon, large breasts

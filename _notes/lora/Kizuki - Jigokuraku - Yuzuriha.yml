@@ -1,0 +1,18 @@
+-model: Kizuki - Jigokuraku - Yuzuriha.safetensors
+prompt: <lora:Kizuki - Jigokuraku - Yuzuriha:1>
+civitai: https://civitai.com/models/60707/kizuki-jigokuraku-yuzuriha-lora-nsfw-support-beta
+recommendations:
+  recommended weight: 0.5 ~ 1
+  CFG scale: 5.0 ~ 10
+  negatives for differnt outifts: ninja, open clothes, white obi,
+  triggers:
+    - yuzuriha_(jigokuraku)
+    - purple hair
+    - brown eyes
+    - ninja
+    - open clothes
+    - cleavage
+    - small breasts
+    - topknot
+  notes:
+    - use "forest, plants, flowers" and so on as negatives for other backgrounds.

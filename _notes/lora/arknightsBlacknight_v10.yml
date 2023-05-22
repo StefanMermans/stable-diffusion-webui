@@ -1,0 +1,11 @@
+model: arknightsBlacknight_v10.safetensors
+prompt: <lora:arknightsBlacknight_v10:1>
+triggers:
+  - blacknight
+  - blacknight SummerFlower
+  - blacknight FragranceBranches
+prompts:
+  original: black dress, elbow gloves, fingerless gloves, sleeveless, horns, tail, thigh strap
+  summer flower: blacknight SummerFlower, black one-piece swimsuit, tail, horns, necklace, thigh strap, white detached sleeves
+  fragrance from branches: blacknight FragranceBranches, black skirt, fingerless gloves, high heels, tail, horns, necklace, off shoulder, red jacket, red socks, thigh strap, white sleeveless shirt
+

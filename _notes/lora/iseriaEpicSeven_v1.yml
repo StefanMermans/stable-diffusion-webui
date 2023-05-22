@@ -1,0 +1,8 @@
+lora: iseriaEpicSeven
+prompt:  <lora:iseriaEpicSeven_v1:1>
+civitai: https://civitai.com/models/25003/iseria-epic-seven
+triggers:
+ - e7 iseria
+prompts:
+  base: grey eyes, blond hair, hair ornaments, off shoulder, white over black
+ 

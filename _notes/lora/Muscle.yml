@@ -1,0 +1,10 @@
+model: Muscle.safetensors
+prompt:
+civitai: https://civitai.com/models/34524/muscular-female-variety-or-concept
+triggers:
+  - toned
+  - muscular
+  - bodybuilder
+  - hypermuscle
+recommendations:
+  weight: 0.8 ~ 1

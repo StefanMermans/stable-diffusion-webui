@@ -1,0 +1,7 @@
+lora: a2NierAutomataLora
+prompt: <lora:a2NierAutomataLora_1:1>
+civtai: https://civitai.com/models/5695/a2-nierautomata-lora-yorha-edition
+triggers:
+ - yorha type a no. 2
+prompts:
+  base: bare shoulders, black gloves, black tank top, blue eyes, elbow gloves, gloves, hair between eyes, joints, long hair, robot, robot joints, science fiction, short shorts, shorts, tank top, white hair,

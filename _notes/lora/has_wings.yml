@@ -1,0 +1,15 @@
+model: has_wings.safetensors
+prompt:
+civitai: https://civitai.com/models/58656/has-wings
+triggers:
+  - has_wings
+  - fairy_wings
+  - butterfly_wings
+  - angel_wings
+  - demon_wings
+  - bat_wings
+  - dragon_wings
+recommendations:
+  weight: 0.3 ~ 0.7
+  CFG scale: 5 ~ 10
+  

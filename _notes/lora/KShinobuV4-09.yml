@@ -1,0 +1,8 @@
+model: KShinobuV4-09.safetensors
+prompt: <lora:KShinobuV4:1>
+civitai: https://civitai.com/models/34842/kuki-shinobu-lora-genshin-impact
+trigger: KShinobuV4
+prompts:
+  base: green hair, purple eyes, hair between eyes,
+  outfit: thighhighs, gloves, jacket, shorts, midriff, stomach, navel, armor, crop top, rope, cropped jacket, purple jacket, fishnet top,
+  mask: mask, mouth mask

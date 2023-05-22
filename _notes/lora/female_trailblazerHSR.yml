@@ -1,0 +1,21 @@
+lora: femail_trailblazerHSR.safetensors
+prompt:
+civitai: https://civitai.com/models/11336/female-trailblazer-or-honkai-star-rail
+triggers:
+  - female trailblazer
+recommendations:
+  weight: 0.6 ~ 0.8
+  prompts:
+    - female trailblazer
+    - long hair
+    - bangs
+    - shirt
+    - gloves
+    - hair between eyes
+    - closed mouth
+    - jacket
+    - yellow eyes
+    - white shirt
+    - grey hair
+    - black gloves
+    - hood

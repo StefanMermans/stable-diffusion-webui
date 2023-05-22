@@ -1,0 +1,6 @@
+model: add_detail.safetensors
+prompt: <lora:add_detail:1>
+civitai: https://civitai.com/models/58390/detail-tweaker-lora-lora
+notes:
+  less detail: negative weight
+  more detail: positive weight

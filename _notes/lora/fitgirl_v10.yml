@@ -1,0 +1,23 @@
+model: fitgirl_v10.safetensors
+prompt: <lora:fitgirl_v10:1>
+civitai: https://civitai.com/models/23234/muscle-girl-or-fit-girl-update
+triggers:
+  - fit
+  - ripped
+  - ab lines
+  - abs
+  - navel
+negative prompts: # if unexpected bikini string around hips
+  - shimakaze \(kancolle\)
+  - high leg
+notes:
+  three body types:
+    - without trigger: Modify body shape, with less muscle
+    - fit: some muscles, less visible abs, ab lines and navel can enhance the body shape
+    - ripped: More muscles, usually with visible abs, can be used with abs and navel
+  extra:
+    - Common muscle-related prompts may work, including abs, leg muscles, arm muscles, and back muscles.
+    - Without the need for trigger words, this LoRA can also fix body shape.
+    - Not good at generating hyper muscles.
+    - Add prompt "navel" makes abs look better maybe?
+    - if there are unexpected bikini strings around hips, add "shimakaze \(kancolle\)" or"high leg" to the negative prompts may help get rid of them, sometimes.

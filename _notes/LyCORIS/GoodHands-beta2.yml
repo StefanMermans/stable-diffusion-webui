@@ -1,0 +1,6 @@
+model: GoodHands-beta2.safetensors
+prompt:  <lyco:GoodHands-beta2:1.0>
+civitai: https://civitai.com/models/47085?modelVersionId=55199
+notes:
+  - higher scales (1.5, 2, etc) can help it on some images at the cost of making
+    it worse on others.

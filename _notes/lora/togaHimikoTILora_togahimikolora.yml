@@ -1,0 +1,9 @@
+lora: togaHimikoTILora_togahimikolora.safetensors
+prompt: <lora:togaHimikoTILora_togahimikolora:1>
+civitai: https://civitai.com/models/4806/toga-himiko-tilora
+prompts:
+  - toga himiko # optional
+  - cardigan
+  - serafuku
+  - balck skirt
+  - neckerchief

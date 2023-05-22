@@ -1,0 +1,14 @@
+lora: KeqingGenshinImpact
+prompt: <lora:keqingGenshinImpact3in1_v10:1>
+civtai: https://civitai.com/models/15699/keqing-or-genshin-impact-or-3in1-lora-and-locon
+triggers:
+ - keqing (genshin impact)
+prompts:
+  default: keqing (piercing thunderbolt) (genshin impact), keqing (genshin impact), pantyhose, hair bun, purple hair, gloves, twintails, long hair, purple eyes, diamond-shaped pupils, bare shoulders, hair ornament, black pantyhose, cone hair bun, detached sleeves,dress, jewelry, medium breasts, earrings, bangs, frills, purple dress, black gloves, braid, skirt,
+  opulent_splendor: keqing (opulent splendor) (genshin impact), keqing (genshin impact), official alternate costume, dress, cone hair bun, night, strapless dress, looking at viewer, long hair, cleavage, black dress, hair bun, strapless, bare shoulders, purple hair, bangs, bow, detached collar, purple eyes, diamond-shaped pupils, ribbon, double bun, twintails, two-tone dress, medium breasts, hair ornament, black bow, hair ribbon, blue dress, bowtie, hair between eyes,  
+  lantern_rite: keqing (lantern rite) (genshin impact), keqing (genshin impact), hair bun, skirt, scarf, purple sweater, white skirt, purple hair, sweater, twintails, purple eyes, diamond-shaped pupils, hair ornament, bare shoulders, smile, breasts, cone hair bun, long hair, belt, double bun, long sleeves, bangs, bow, hair flower, hair bow,ribbon, hair ribbon, braid, plaid scarf, plaid, off shoulder
+  custom_outfit: keqing (genshin impact), hair bun, purple hair, twintails, purple eyes, diamond-shaped pupils, hair ornament, cone hair bun, long hair, double bun, bangs, bow, hair flower, hair bow, hair ribbon,
+notes:
+  Recommend 0.85-1 Strength for triggering any official costume.
+
+  For changing custom clothes, I suggest 0.7-0.85 Weight

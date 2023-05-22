@@ -1,0 +1,6 @@
+model: Raiden.safetensors
+prompt:
+civitai: https://civitai.com/models/21395/raiden-shogun-genshin-impact-lora
+triggers:
+  - raiden_genshin
+  - default_dress

@@ -1,0 +1,8 @@
+lora: saoriBlueArchive
+prompt: <lora:saoriBlueArchive_saorilorav1:1>
+civtai: https://civitai.com/models/6762/saori-blue-archive
+triggers:
+ - saori (blue archive)
+prompts:
+  base: long hair, breasts, bangs, blue eyes, black hair, hat, naval, stomach, jacket,  open clothes, sleeveless, black gloves, black shirt, sleeveless shirt, black pants, white jacket, baseball cap, black belt, black face mask,
+  alternative: saori, 1girl, solo, halo, long hair, blue eyes, mouth mask, black hair, black mask, pants, black headwear, black gloves, crop top, sleeveless, halo, large breasts, black shirt

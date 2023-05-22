@@ -1,0 +1,11 @@
+model: colored_eyelashes.safetensors
+prompt: <lora:colored_eyelashes000:1>
+civitai: https://civitai.com/models/69207/colored-eyelashes
+triggers:
+  - colored eyelashes
+  - white eyelashes
+  - yellow eyelashes
+  - (Eyelashes of any color)
+notes:
+  The model appears to always generate a specific hairstyle.
+  

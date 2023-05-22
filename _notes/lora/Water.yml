@@ -1,0 +1,3 @@
+model: Water.safetensors
+prompt: <lora:Water:1>
+civitai: https://civitai.com/models/35681/sugar-water-style

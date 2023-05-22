@@ -1,0 +1,7 @@
+lora: makotoShinkaiSubstyles
+prompt: <lora:makotoShinkaiSubstyles_offset:1>
+triggers:
+ - shinkai makoto
+ - kimi no na wa.
+ - tenki no ko
+ - kotonoha no niwa

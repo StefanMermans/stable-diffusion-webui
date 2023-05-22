@@ -1,0 +1,7 @@
+model: kyoto animation_artstyle_LoCon.safetensors
+prompt: <lyco:kyoto animation_artstyle_LoCon:1.0>
+civitai: https://civitai.com/models/38092/kyoto-animation-screencap-artstyle
+weight: 0.5 ~ 0.7
+prompts:
+  - kyoto animation screencap
+  - anime screencap

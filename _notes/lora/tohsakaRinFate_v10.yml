@@ -1,0 +1,34 @@
+lora: tohsakaRinFate_v10.safetensors
+prompt: <lora:tohsakaRinFate_v10:1>
+civitai: https://civitai.com/models/11798/tohsaka-rin-fate
+prompts:
+  base:
+    - tohsaka rin
+    - long hair
+    - blue eyes
+    - black hair
+  red shirt:
+    - thighhighs
+    - skirt
+    - black thighhighs
+    - red shirt
+  school girl:
+    - skirt
+    - pantyhose
+    - shirt
+    - black shirt
+    - white shirt
+    - homurahara academy school uniform
+    - open clothes
+    - ribbon
+    - coat
+    - red coat
+    - brown vest
+    - long sleeves
+    - collared shirt
+    - black pantyhose
+    - school uniform
+    - bangs
+    - vest
+    - brown hair
+    - open coat

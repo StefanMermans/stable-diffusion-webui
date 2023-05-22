@@ -1,0 +1,8 @@
+lora: KDAAllOutAkali
+prompt: <lora:kDAAllOutAkali_kdaAllOutAkaliLora:1>
+civtai: https://civitai.com/models/3945/kda-all-out-akali
+triggers:
+ - kda all out akali
+prompts:
+  base: hair, two-tone hair, high ponytail, blue eyes, black hair, blonde hair, short hair, lips, eyeshadow, makeup, earrings, cleavage cutout, clothing cutout, cropped jacket, open clothes, open jacket, two-tone jacket, shiny clothes, multicolored clothes, white jacket, multicolored jacket, blue sports bra, zipper, midriff, stomach, buckle, fingerless gloves, black gloves, gloves, jacket, jewelry, medium breasts, breasts, black pants, belt, shoes,
+  weapon: kunai, weapon,

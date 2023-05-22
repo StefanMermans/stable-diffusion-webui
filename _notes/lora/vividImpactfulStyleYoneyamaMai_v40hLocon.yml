@@ -1,0 +1,10 @@
+model: vividImpactfulStyleYoneyamaMai_v40hLocon.safetensors
+civitai: https://civitai.com/models/21722?modelVersionId=33016
+triggers:
+  style: vvi\(artstyle\)
+  portraits: vvi\(face\), vvi\(eyes\)
+  official_art: vvi\(oa\) # whatever that means
+recommended:
+  weight: 0.6~1
+  CFG scale: 5.5~7
+  

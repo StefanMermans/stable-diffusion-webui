@@ -1,0 +1,4 @@
+lora: Genshin impact model
+prompt: <lora:genshinImpactModel_v10:1>
+triggers:
+ - genshin # This could be optionaL? (try with and without)

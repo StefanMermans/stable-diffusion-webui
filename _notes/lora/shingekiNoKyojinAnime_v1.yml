@@ -1,0 +1,5 @@
+lora: shingeki no kyojin style
+prompt: <lora:shingekiNoKyojinAnime_v1:1>
+civtai: https://civitai.com/models/6364/shingeki-no-kyojin-attack-on-titan-anime-style-lora
+triggers:
+ - aot style

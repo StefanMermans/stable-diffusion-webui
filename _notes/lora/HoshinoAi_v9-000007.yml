@@ -1,0 +1,10 @@
+model: HoshinoAi_v9-000007.safetensors
+prompt: <lora:HoshinoAi_v9:0.8>
+civitai: https://civitai.com/models/43409?modelVersionId=52053
+trigger: Hoshino Ai
+prompts:
+  - star-shaped pupils
+  - purple hair
+  - streaked hair
+  - purple eyes
+  

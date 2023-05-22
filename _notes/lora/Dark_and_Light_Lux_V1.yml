@@ -1,0 +1,6 @@
+model: Dark_and_Light_Lux_V1.safetensors
+prompt:
+civitai: https://civitai.com/models/50872/cosmic-lux-and-dark-cosmic-lux-o-lora
+triggers:
+  dark: Dark_Cosmic_Lux, Orange_hair, gradient_hair, very_long_hair,
+  light: Cosmic_Lux, gradient_hair, very_long_hair,

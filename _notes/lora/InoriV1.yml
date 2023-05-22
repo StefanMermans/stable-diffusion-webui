@@ -1,0 +1,9 @@
+lora: InoriV1.safetensors
+prompt: <lora:InoriV1:1>
+civitai: https://civitai.com/models/12139/yuzurihainori
+trigger: yuzuriha_inori
+prompt:
+  - center_opening # When the model covers up her midriff
+notes:
+  - According to my experiment, you might need to add a little bit more weight ( such as 1.1) if you wan to apply this lora to ChilloutMix-Ni with a lot of Negtive Prompts.
+  

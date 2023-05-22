@@ -1,0 +1,14 @@
+model: Seele.safetensors
+prompt:
+civitai: https://civitai.com/models/56458/seele-or-honkai-star-rail
+trigger: "seele (honkai: star rail)"
+prompts:
+  - solo
+  - long hair
+  - bangs
+  - purple eyes
+  - hair between eyes
+  - bare shoulder
+  - closed mouth
+  - purple hair
+  - gloves

@@ -1,0 +1,5 @@
+lora: samdoesartsSamYang
+prompt: <lora:samdoesartsSamYang_offsetRightFilesize:1>
+triggers:
+ - sam yang
+ 

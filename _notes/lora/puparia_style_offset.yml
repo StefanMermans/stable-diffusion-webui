@@ -1,0 +1,7 @@
+model: puparia_style_offset.safetensors
+prompt: <lora:puparia_style_offset:1>
+civitai: https://civitai.com/models/55330/puparia-style-lora
+triggers: puparia style
+recommendations:
+  highres.fix: upscaler "None"
+

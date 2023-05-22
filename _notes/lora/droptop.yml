@@ -1,0 +1,5 @@
+model: droptop.safetensors
+prompt: <lora:droptop:1>
+civitai: https://civitai.com/models/49044/droptop
+weight: 0.4 ~ 0.7
+trigger: droptop

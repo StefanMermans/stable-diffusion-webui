@@ -1,0 +1,7 @@
+model: tape.safetensors
+civitai: https://civitai.com/models/54427/the-tape
+
+prompt: <lora:tape:0.6>
+trigger: tape
+recommendations:
+  weight: 0.6 ~ 0.8

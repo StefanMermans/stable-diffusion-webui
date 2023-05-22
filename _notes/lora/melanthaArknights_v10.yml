@@ -1,0 +1,17 @@
+lora: melanthaArknights_v10.safetensors
+prompt: <lora:melanthaArknights_v10:1>
+civitai: https://civitai.com/models/13146/melanthaarknights
+trigger: melantha
+prompts:
+  base:
+    - sleeveless
+    - armband
+    - choker
+    - fingerless gloves
+    - long hair
+    - cropped jacket
+    - short dress
+  skin: 
+    - Melantha_skin
+    - hat
+    - plaid

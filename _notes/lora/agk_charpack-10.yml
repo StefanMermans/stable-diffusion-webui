@@ -1,0 +1,64 @@
+model: agk_charpack-10.safetensors
+prompt: <lora:agk_charpack-10:1>
+civitai: https://civitai.com/models/42405/akame-ga-kill-ultimate-girl-pack
+weight: 1.0
+triggers:
+  Akame:
+    - akame \(akame ga kill!\)
+    - black collared shirt
+    - red necktie
+    - sleeveless
+    - skirt (add black hair and red eyes if necessary)
+  Chelsea:
+    - chelsea \(akame ga kill!\)
+    - headphones
+    - black vest
+    - white shirt
+    - neck ribbon
+    - long sleeves
+    - plaid skirt
+  Esdeath:
+    - esdeath
+    - long blue hair
+    - white peaked cap
+    - blue eyes
+    - white military uniform
+    - long sleeves
+    - white thighhighs
+    - choker
+    - cleavage
+    - large breasts
+  Kurome:
+    - kurome
+    - black serafuku
+    - black skirt
+    - pantyhose (add black hair and black eyes if necessary)
+  Leone:
+    - leone
+    - blonde hair
+    - cat ears
+    - strapless
+    - detached sleeves
+    - boots
+    - scarf
+    - belt
+    - tail
+    - midriff
+    - large breasts
+  Mine:
+    - mine \(akame ga kill!\)
+    - long pink hair
+    - twintails
+    - pink dress
+    - ribbon
+    - capelet
+    - pantyhose
+  Sheele:
+    - sheele
+    - purple hair
+    - purple eyes
+    - glasses
+    - purple dress
+    - clothing cutout
+    - cleavage cutout
+    - detached sleeves

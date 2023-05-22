@@ -1,0 +1,12 @@
+lora: characterMadoka_v10.safetensors
+prompt: <lora:characterMadoka_v10:1>
+civitai: https://civitai.com/models/7785/character-madoka
+triggers: 
+  - higuchi_madoka
+  - sweater
+  - skirt
+  - stockings
+  - red hair
+  - pink eyes
+  - hair clips
+  - short hair

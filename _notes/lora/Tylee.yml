@@ -1,0 +1,10 @@
+model: Tylee.safetensors
+prompt: <lora:Tylee:1>
+civitai: https://civitai.com/models/48192/ty-lee-avatar-the-last-airbender-character-lora
+trigger: tylee
+weight: 0.8 ~1
+prompts:
+  - brown eyes
+  - brown hair
+  - smile
+  - braid

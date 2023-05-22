@@ -1,0 +1,17 @@
+model: AiHayasakV4-10.safetensors
+prompt: <lora:AiHayasakaV4:1>
+civitai: https://civitai.com/models/24130/ai-hayasaka-kaguya-samalove-is-war
+trigger: aihayasakav4
+prompts:
+  base:
+    - blonde hair
+    - blue eyes
+    - side ponytail
+    - hair between eyes
+    - hair ornament
+    - hair scrunchie
+  default outfit:
+    - white shirt
+    - clothes around waist
+    - collared shirt
+    - shuuchiin academy school uniform

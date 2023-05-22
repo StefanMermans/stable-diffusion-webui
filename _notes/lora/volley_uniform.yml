@@ -1,0 +1,11 @@
+model: volley_uniform.safetensors
+prompt: <lora:volley_uniform:0.75>
+civitai: https://civitai.com/models/62428/volley-uniform
+triggers:
+  - volley uniform
+  - beach volley
+  - beach cap
+  - inside beach volley field
+  - inside volley ball field
+  - holding ball
+

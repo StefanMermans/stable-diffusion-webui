@@ -1,0 +1,3 @@
+lora: badquality
+civtai: https://civitai.com/models/19968/badquality-negative-embedding-for-wd15
+prompt: <lora:badquality:1>

@@ -1,0 +1,4 @@
+lora: veryBadImageNegative
+prompt: <lora:verybadimagenegative_v1.2-6400:1>
+civtai: https://civitai.com/models/11772/verybadimagenegative
+

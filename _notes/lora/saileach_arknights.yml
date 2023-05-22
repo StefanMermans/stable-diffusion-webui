@@ -1,0 +1,9 @@
+model: saileach_arknights.safetensors
+prompt: <lora:saileach_arknights:1>
+civitai: https://civitai.com/models/5823?modelVersionId=7468
+triggers:
+  - origen
+  - origentou
+  - shifen
+  - shifenhead
+  - headband

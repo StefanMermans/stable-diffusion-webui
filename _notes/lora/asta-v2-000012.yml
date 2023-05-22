@@ -1,0 +1,18 @@
+lora: asta-v2-000012.safetensors
+prompt: 
+civitai: https://civitai.com/models/19377/honkai-star-rail-asta
+weight: 0.7 ~ 0.8
+prompts:
+  - asta
+  - pink short hair
+  - blue eyes
+  outfit:
+    - dress
+    - (membership card)
+    - high heels
+    - dress
+    - detached sleeves
+    - garter
+    - bow tie
+    - off shoulder
+    - hand lantern

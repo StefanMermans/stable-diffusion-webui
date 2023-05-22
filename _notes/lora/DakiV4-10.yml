@@ -1,0 +1,25 @@
+model: DakiV4-10.safetensors
+prompt: <lora:DakiV4:1>
+civitai: https://civitai.com/models/33585/daki-lora-kimetsu-no-yaiba-demon-slayer
+trigger: DakiV4
+weight: 0.6 ~1
+prompts:
+  base:
+    - long hair
+    - breasts
+    - hair ornament
+    - thighhighs
+    - navel
+    - cleavage
+    - very long hair
+    - underwear
+    - panties
+  demon:
+    - white hair
+    - multicolored hair
+    - green hair
+    - makeup
+    - gradient hair
+    - facial mark
+    - white skin
+    - green eyes

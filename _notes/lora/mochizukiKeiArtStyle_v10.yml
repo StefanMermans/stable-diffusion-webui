@@ -1,0 +1,6 @@
+lora: mochizukiKeiArtStyle_v10.safetensors
+prompt: <lora:mochizukiKeiArtStyle_v10:1>
+civitai: https://civitai.com/models/12190/mochizuki-kei-art-style-lora
+prompts:
+  - monochrome
+  - simple_background

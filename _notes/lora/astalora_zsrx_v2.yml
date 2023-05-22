@@ -1,0 +1,8 @@
+model: astalora_zsrx_v2.safetensors
+rompt: <lora:astalora_zsrx_v2:1>
+civitai: https://civitai.com/models/61602/honkai-star-railasta
+triggers:
+  - asda
+  - head
+  - face
+  - high heel

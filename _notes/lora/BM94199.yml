@@ -1,0 +1,3 @@
+model: BM94199.safetensors
+prompt: <lora:BM94199:0.8>
+civitai: https://civitai.com/models/45174/bm94199-style

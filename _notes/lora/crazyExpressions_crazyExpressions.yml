@@ -1,0 +1,12 @@
+lora: crazyExpressions_crazyExpressions.safetensors
+prompt: <lora:crazyExpressions_crazyExpressions:1>
+civitai: https://civitai.com/models/5891/crazy-expressions
+triggers:
+  - crazy face
+  - crazy eyes
+  - crazy smile
+  - shocked
+  - horrified
+  - scared
+  - small pupils
+  - constricted pupils

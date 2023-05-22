@@ -1,0 +1,8 @@
+lora: ArknightsIrene_hard.safetensors
+prompt: <lora:ArknightsIrene_hard:1>
+civitai: https://civitai.com/models/5982?modelVersionId=6973
+trigger:
+  - irene
+  - irenehead
+  - holding lamp
+prompts:

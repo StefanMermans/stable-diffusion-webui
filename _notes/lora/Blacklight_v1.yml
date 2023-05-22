@@ -1,0 +1,10 @@
+lora: Blacklight_v1.safetensors
+prompt: <lora:Blacklight_v1:1>
+civitai: https://civitai.com/models/15898/blacklight
+triggers:
+  - blacklight
+prompts:
+  - black background
+  - neon
+notes:
+  Change weight depending on model, 1 should be fine for most, but I've used 0.5-2 with good results.

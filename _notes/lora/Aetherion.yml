@@ -1,0 +1,10 @@
+model: Aetherion.safetensors
+prompt: <lora:Aetherion:1>
+civitai: https://civitai.com/models/54854/aetherion-style-lora
+triggers:
+  - aetherion
+recommendations:
+  weight: 0.6 ~ 0.8
+  resolutions:
+    - 512x512
+    - 768x768

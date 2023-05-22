@@ -1,0 +1,9 @@
+model: utsurome_v3.safetensors
+prompt: <lora:utsurome_v5:1>
+civitai: https://civitai.com/models/8275/empty-eyes-lora-utsurome-hypnosis
+prompts:
+  - empty eyes
+notes:
+  - It may be better to redraw only face or eyes using inpaint
+  - Recommended to reduce weight
+

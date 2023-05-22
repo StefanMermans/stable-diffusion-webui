@@ -1,0 +1,20 @@
+model: kda_all_out_akali_v1.safetensors
+prompt: <lora:kda_all_out_akali_v1:1>
+civitai: https://civitai.com/models/47609/kda-all-out-akali-league-of-legends
+weight: 0.6
+prompts:
+  - akali
+  - k/da \(league of legends\)
+  - black hair
+  - blonde hair
+  - multicolored hair
+  - ponytail
+  - fingerless gloves,
+  - midriff,
+  - earrings
+  - two-tone hair
+  - open jacket
+  - open clothes
+  - black pants
+  - belt
+  - belt buckle
