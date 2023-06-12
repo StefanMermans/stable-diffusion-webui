@@ -1,0 +1,4 @@
+model: concept-female_masturbation-v2.safetensors
+prompt: <lora:concept-female_masturbation-v2:1>
+civitai: https://civitai.com/models/44402/female-masturbation-concepts
+trigger: female masturbation

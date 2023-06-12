@@ -1,0 +1,7 @@
+model: FlamingEye.safetensors
+prompt: <lora:FlamingEye:1>
+civitai: https://civitai.com/models/20104/flaming-eye-concept-lora
+triggers:
+  - flaming eye
+  - eye trail
+different eye colors: <color> flaming eye

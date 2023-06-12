@@ -1,0 +1,16 @@
+model: akanev2.safetensors
+prompt: <lora:akane:0.9>
+civitai: https://civitai.com/models/63784/kurokawa-akane-or-oshi-no-ko-or-lora
+recommendations:
+  prompts:
+    character:
+      - akane
+      - multicolored hair
+      - gradient hair
+    outfit:
+      - white shirt
+      - sweater vest
+      - black vest
+      - blue necktie
+      - skirt
+ 

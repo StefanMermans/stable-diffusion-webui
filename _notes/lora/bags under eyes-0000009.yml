@@ -1,0 +1,4 @@
+model: bags under eyes-000009.safetensors
+prompt: <lora:bags under eyes:1>
+civitai: <lora:FlamingEye:1>
+trigger: Bags under eyes

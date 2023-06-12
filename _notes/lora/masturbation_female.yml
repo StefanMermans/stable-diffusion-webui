@@ -1,0 +1,10 @@
+model: masturbation_female.safetensors
+prompt: <lora:masturbation_female:1>
+civitai: https://civitai.com/models/11088/female-masturbation-fingering
+triggers:
+  - fingering
+  - schlick
+  - masturbation
+prompts:
+  - nsfw
+  - pussy

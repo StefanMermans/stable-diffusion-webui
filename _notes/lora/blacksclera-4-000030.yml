@@ -1,0 +1,6 @@
+model: blacksclera-4-000030.safetensors
+prompt: <lora:blacksclera4:1.0>
+civitai: https://civitai.com/models/14002/black-sclera-or-test-inpaint-eye-lora-757
+triggers:
+  - black sclera
+  - colored sclera

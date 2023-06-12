@@ -1,0 +1,11 @@
+model: masturbation-v1.safetensors
+prompt: <lora:masturbation-v1:1>
+civitai: https://civitai.com/models/17379/female-masturbation-boob-fondling-and-fingering
+triggers:
+  - masturbation
+  - fingering
+  - female_masturbation
+  - grabbing_own_breast
+prompts:
+  - nude
+  - nsfw

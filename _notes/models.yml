@@ -4,8 +4,12 @@ meinamix_meinav9:
     sampler:
       - EularA, 40~60 steps
       - DPM++ SDE Karras, 30~60 steps
+      - DPM++ 2M Karras,  20~60 steps
     CFG scale: 7
-    Hires.fix: R-ESRGAN 4x+Anime6B, with 10 steps at 0.1 up to 0.3 denoising
+    Hires.fix:
+      sampler: R-ESRGAN 4x+Anime6B
+      steps: 10
+      denoising: 0.1 ~ 0.3
     clip skip: 2
     negative_prompt: (worst quality:2, low quality:2), (zombie, sketch, interlocked fingers, comic),
     Resolutions:
@@ -51,6 +55,23 @@ meinapastel_v4:
     Hires.fix option 2: R-ESRGAN 4x or +Anime6b, with 15 steps at 0.1 up to 0.3 denoising.
     Clip Skip: 2
     negative_prompt: (worst quality, low quality:1.4), monochrome, zombie
+
+meinapatel_v5:
+  civitai: https://civitai.com/models/11866/meinapastel
+  recommendations:
+    Sampler: DPM++ 2M Karras/SDE Karras/euler a, 20 to 40 steps
+    resolutions:
+      portrait:
+        - 512x768
+        - 512x1024
+      portrait:
+        - 768x512
+        - 1024x512
+        - 1536x512
+    CFG Scale: 4 to 11
+    Hires.fix: R-ESRGAN 4x+Anime6b with 15 steps at 0.4 denoising
+    Clip skip: 2
+    negative prompt: (worst quality, low quality:1.4), zombie, (interlocked fingers), [monochrome:0.8]
 
 meinahentai:
   civitai: https://civitai.com/models/12606/meinahentai
@@ -212,7 +233,7 @@ camelliamixLine_v2:
     Hires.step: 12
   prompting:
     positive: (masterpiece:1.2, best quality)
-    negative: (worst quality, low quality:1.4), <lora:easynegative:1> 
+    negative: (worst quality, low quality:1.4), EasyNegative
 
 darkSushiMixMix_brighter:
   civitai: https://civitai.com/models/24779?modelVersionId=32465
@@ -247,3 +268,20 @@ dreamshaper_5BakedVae:
       # This just looks like bullshit
       - "intricate, elegant, highly detailed, majestic, digital photography, art by artgerm and ruan jia and greg rutkowski surreal painting, hdr,"
       - watercolor extremely luminous bright design, pastel colors, (ink:1.3), autumn lights
+
+toonyou_beta3:
+  civitai: https://civitai.com/models/30240/toonyou
+  recommendations:
+    clip skip: 2
+    sampler:
+      - DPM++ 2M Karras
+      - DPM++ SDE Karras
+      - UniPC
+    Hires.fix:
+      - sampler: R-ESRGAN 4x+ Anime6B
+      - Upscale by: 1.5+
+      - Hires steps: 14
+      - Denoising strength: 0.4
+    prompts:
+      positive: (best quality, masterpiece)
+      negative: (worst quality, low quality)

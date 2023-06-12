@@ -1,0 +1,7 @@
+model: style_arknightse2art-10.safetensors
+prompt: <lyco:style_arknightse2art-10:1.0>
+civitai: https://civitai.com/models/72576/arknights-operator-elite-2-splash-art-style
+prompts:
+  - [(white background:1.5)::5]
+  - full body
+  - solo
